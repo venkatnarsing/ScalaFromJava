@@ -9,8 +9,6 @@ import com.app.service.ScalaClass;
 
 public class Runner {
     public static void main(String[] args) {
-        /*BookStorage storage = new BookStorage();
-        storage.getBooks().stream().forEach((Book b) -> System.out.println(b));*/
         
         ScalaClass scalaClass = new ScalaClass(true);
         System.out.println(scalaClass.plus(1, 1));
